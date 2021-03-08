@@ -1,7 +1,7 @@
 //Declarative pipeline//
 
 pipeline{
-    agent slave1
+    agent slave
     stages{
         stage('Checkout SCM'){
             steps{
