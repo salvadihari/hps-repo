@@ -5,6 +5,7 @@ pipeline{
     stages{
         stage('Checkout SCM'){
             steps{
+                git url: 'https://github.com/salvadihari/hps-repo.git'
                 sh 'java -version'
             }
         }
